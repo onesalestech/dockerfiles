@@ -1,4 +1,4 @@
-FROM golang:1.9
+FROM quay.io/onesalestech/golang:latest
 
 LABEL maintainer "ONE <tech@onet.io>"
 
