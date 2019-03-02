@@ -1,3 +1,3 @@
 FROM golang:1.9
 
-LABEL maintainer "ONE <tech@onet.io>"
+LABEL maintainer "Onet <tech@onet.io>"
