@@ -1,4 +1,4 @@
-FROM quay.io/onet/golang:latest
+FROM quay.io/onet/golang:1.12
 
 LABEL maintainer "Onet <tech@onet.io>"
 
