@@ -1,3 +1,3 @@
-FROM golang:1.9
+FROM golang:1.12
 
 LABEL maintainer "Onet <tech@onet.io>"
