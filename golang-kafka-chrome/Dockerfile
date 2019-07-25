@@ -9,11 +9,11 @@ RUN \
   && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
 RUN mkdir -p /headless-shell/
-RUN cd /headless-shell/
+WORKDIR /headless-shell/
 RUN wget https://dev-static-public-onet.s3.amazonaws.com/headless-shell/headless_shell
 RUN chmod +x headless_shell
 RUN mkdir -p swiftshader
-RUN cd swiftshader
+WORKDIR /headless-shell/swiftshader
 RUN wget https://dev-static-public-onet.s3.amazonaws.com/headless-shell/swiftshader/libEGL.so
 RUN wget https://dev-static-public-onet.s3.amazonaws.com/headless-shell/swiftshader/libEGL.so.TOC
 RUN wget https://dev-static-public-onet.s3.amazonaws.com/headless-shell/swiftshader/libGLESv2.so
