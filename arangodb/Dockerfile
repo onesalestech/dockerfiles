@@ -1,3 +1,3 @@
-FROM arangodb:3.3
+FROM arangodb:3.4
 
 LABEL maintainer "Onet <tech@onet.io>"
