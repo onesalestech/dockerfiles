@@ -1,4 +1,4 @@
-FROM quay.io/onet/golang-kafka:1.12.1
+FROM quay.io/onet/golang-kafka:1.13.1
 
 LABEL maintainer "Onet <tech@onet.io>"
 
